@@ -60,7 +60,6 @@ describe('ImageDetailsComponent', () => {
     fixture = TestBed.createComponent(ImageDetailComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
-    imageService = TestBed.inject(ImageService);
     activatedRoute = TestBed.inject(ActivatedRoute);
   });
 
